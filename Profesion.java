@@ -13,9 +13,10 @@ public class Profesion
     /**
      * Constructor for objects of class Profesion
      */
-    public Profesion()
+    public Profesion(String Profesion, String Rango)
     {
-
+     nombreProfesion = Profesion;
+     rango = Rango;
     }
     
     public String getNombreprofesion() {
