@@ -13,4 +13,6 @@ comment5.params=Raza
 comment5.target=void\ setRaza(java.lang.String)
 comment6.params=laProfesion
 comment6.target=void\ setProfesion(Profesion)
-numComments=7
+comment7.params=
+comment7.target=void\ imprimirDetalles()
+numComments=8
