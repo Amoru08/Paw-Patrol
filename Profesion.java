@@ -9,7 +9,7 @@ public class Profesion
     // instance variables - replace the example below with your own
     private String nombreProfesion;
     
-    private String Rango;
+    private String rango;
     /**
      * Constructor for objects of class Profesion
      */
@@ -22,13 +22,17 @@ public class Profesion
         return nombreProfesion;
     }
     public String getRango() {
-        return Rango;
+        return rango;
     }
     public void setNombreprofesion(String profesion) {
         nombreProfesion = profesion;
     }
-    public void setRango(String rango) {
-        Rango = rango;
+    public void setRango(String Rango) {
+        rango = Rango;
+    }
+    
+    public void imprimirDetalles(){
+        System.out.println("Nombre de la profesion ejercida: " + nombreProfesion + " Rango dentro de la profesion: " + rango);
     }
 
     
