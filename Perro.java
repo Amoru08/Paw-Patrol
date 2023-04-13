@@ -9,5 +9,15 @@ public class Perro
 {
     private String nombrePerro; 
     private String raza;
-    private Profesion Profesion;
+    private Profesion profesion;
+
+public String getNombrePerro(){
+    return nombrePerro;
+}
+public String getRaza(){
+    return raza;
+}
+public Profesion getProfesion(){
+    return profesion;
+}
 }
